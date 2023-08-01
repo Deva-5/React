@@ -34,7 +34,7 @@ app.get("/weather1", function(req, result){
 });
 
 app.get("/index", function(req, result){
-	result.sendFile(process.cwd()+"/public/index.html");
+	result.sendFile(process.cwd()+"/index.html");
 });
 
 app.get("/api/todos", function(req, res){
